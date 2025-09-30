@@ -1,7 +1,7 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Hello world!
+After moving the camera off the Cat object, the camera stays in place and no longer follows the Cat. This is because the camera is no longer attached to the Cat + the movement controls are attached to the Cat and not the camera, so the camera stays in place while the Cat moves freely.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
