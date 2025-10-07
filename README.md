@@ -4,7 +4,9 @@
 After moving the camera off the Cat object, the camera stays in place and no longer follows the Cat. This is because the camera is no longer attached to the Cat + the movement controls are attached to the Cat and not the camera, so the camera stays in place while the Cat moves freely.
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r, g, b variables are floats because color values come out as decimals and therefore are fractionals. Floats hold fractionals, unlike all other variable types.
+2. The _bounce variable is an int because it stores the number of bounces which is a whole number. 
+3. In Step 4 of the code, the error was that there was a missing semicolon in "g -= 0.1f" and there was a missing "f" in "g = 1.0".
 
 ## Open-Source Assets
 ### W1
