@@ -8,6 +8,9 @@ After moving the camera off the Cat object, the camera stays in place and no lon
 2. The _bounce variable is an int because it stores the number of bounces which is a whole number. 
 3. In Step 4 of the code, the error was that there was a missing semicolon in "g -= 0.1f" and there was a missing "f" in "g = 1.0".
 
+### W3
+Table #15: The parameter for SetLightDimness would be an int representing the player's sanity level as it goes from 0%-100%. The return type would be void as it simply updates the brightness level value rather than returning a value.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
