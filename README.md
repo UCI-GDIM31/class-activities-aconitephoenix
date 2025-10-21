@@ -11,6 +11,9 @@ After moving the camera off the Cat object, the camera stays in place and no lon
 ### W3
 Table #15: The parameter for SetLightDimness would be an int representing the player's sanity level as it goes from 0%-100%. The return type would be void as it simply updates the brightness level value rather than returning a value.
 
+### W4
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
