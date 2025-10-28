@@ -30,12 +30,10 @@ A: Didn't get answered, but assume that it would return an error due to type con
 Other Q&A: Translate refers to moving in Transform component, moves based on floats and stuff
 
 #### Activity 2: Pair Programming
-1. Member variable(s): [SerializeField] private Transform _transform, [SerializeField] private float _moveSpeed, private NavMeshAgent _deerNavMeshAgent
-2. Method(s): Start(), Update(), SetDestination()
+1. Member variable(s): [SerializeField] private Transform _destination (store transform of destination)
+2. Method(s): Start()
 3. What method(s) do: 
-    Start(): runs at the beginning, set _deerNavMeshAgent = GetComponent<NavMeshAgent>();
-    Update(): updates every frame, controls continous movement
-
+    Start(): runs at the beginning, set NavMeshAgent + _destination, set destination for NavMeshAgent to walk towards
 
 ## Open-Source Assets
 ### W1
