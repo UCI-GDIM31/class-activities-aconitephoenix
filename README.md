@@ -22,6 +22,21 @@ Table #15
 1. Both the Cat and the SoccerBall have Rigidbodies and the Goal has Is Trigger checked. Both the Cat and the SoccerBall need a Rigidbody so that Unity can simulate physical collision with them, thus allowing the Cat to kick the SoccerBall and for the SoccerBall to move when the Cat touches it. The Goal needs the Is Trigger option checked because the SoccerBall needs to be able to pass through it, thus requiring an invisible collision rather than a physical one.
 2. N/A, code worked!
 
+### W5
+#### Activity 1: Collaborative Learning
+Q: What will return when GetComponent() is called with a conflicting type/component? Ex: BallW3 ball = someObject.gameObject.GetComponent<Pizza>(); Would it return a null or an error?
+A: Didn't get answered, but assume that it would return an error due to type conflict.
+
+Other Q&A: Translate refers to moving in Transform component, moves based on floats and stuff
+
+#### Activity 2: Pair Programming
+1. Member variable(s): [SerializeField] private Transform _transform, [SerializeField] private float _moveSpeed, private NavMeshAgent _deerNavMeshAgent
+2. Method(s): Start(), Update(), SetDestination()
+3. What method(s) do: 
+    Start(): runs at the beginning, set _deerNavMeshAgent = GetComponent<NavMeshAgent>();
+    Update(): updates every frame, controls continous movement
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
