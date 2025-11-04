@@ -35,6 +35,17 @@ Other Q&A: Translate refers to moving in Transform component, moves based on flo
 3. What method(s) do: 
     Start(): runs at the beginning, set NavMeshAgent + _destination, set destination for NavMeshAgent to walk towards
 
+### W6
+#### Activity 1: Class Resource Guide
+Category: Unity Engine
+[Link to doc](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?usp=sharing)
+
+#### Activity 2: Pair Programming
+- should have a [SerializeField] private float _speed
+- DisableChase() to disable bats
+- EnableChase() to enable bats
+- private Transform to store player location
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
