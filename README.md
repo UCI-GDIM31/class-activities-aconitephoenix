@@ -31,7 +31,7 @@ Other Q&A: Translate refers to moving in Transform component, moves based on flo
 
 #### Activity 2: Pair Programming
 1. Member variable(s): [SerializeField] private Transform _destination (store transform of destination)
-2. Method(s): Start()
+2. Method(s): Start()  
 3. What method(s) do: 
     Start(): runs at the beginning, set NavMeshAgent + _destination, set destination for NavMeshAgent to walk towards
 
@@ -41,10 +41,10 @@ Category: Unity Engine
 [Link to doc](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?usp=sharing)
 
 #### Activity 2: Pair Programming
-- should have a [SerializeField] private float _speed
-- DisableChase() to disable bats
-- EnableChase() to enable bats
-- private Transform to store player location
+- should have a [SerializeField] private float _speed  
+- DisableChase() to disable bats  
+- EnableChase() to enable bats  
+- private Transform to store player location  
 
 ### W7
 #### Activity 1: Designing a Game Engineering Plan
@@ -52,7 +52,7 @@ Role: Gameplay/UI
 [Link to doc](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?tab=t.n15fr0ty9u79)
 
 #### Activity 2: Visualizing Coordinate Spaces
-- muskrat should rotate around y-axis, use Vector3.up as a multiplier in the transform.Rotate
+- muskrat should rotate around y-axis, use Vector3.up as a multiplier in the transform.Rotate  
 Step 2 uses transform.position rather than transform.Translate to move the muskrat, which instead moves the muskrat forward and backwards based on fixed axes rather than the direction that the muskrat is facing. In other words, transform.position disregards rotation while transform.Translate does because it works in the muskrat's object space.
 
 ## Open-Source Assets
