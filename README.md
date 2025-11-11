@@ -46,6 +46,15 @@ Category: Unity Engine
 - EnableChase() to enable bats
 - private Transform to store player location
 
+### W7
+#### Activity 1: Designing a Game Engineering Plan
+Role: Gameplay/UI
+[Link to doc](https://docs.google.com/document/d/12El8B1DVwCrcYU4DHfi3xilsWEET20KrlgRqnEkWHi4/edit?tab=t.n15fr0ty9u79)
+
+#### Activity 2: Visualizing Coordinate Spaces
+- muskrat should rotate around y-axis, use Vector3.up as a multiplier in the transform.Rotate
+Step 2 uses transform.position rather than transform.Translate to move the muskrat, which instead moves the muskrat forward and backwards based on fixed axes rather than the direction that the muskrat is facing. In other words, transform.position disregards rotation while transform.Translate does because it works in the muskrat's object space.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
